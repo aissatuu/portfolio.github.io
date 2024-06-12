@@ -1,17 +1,17 @@
 {
     "name": "Aissatou GUEYE",
-    "description": "Apprentie ingénieure informatique à la recherche d'un contrat d'apprentissage de 12 mois dans le domaine de la Data.",
+    "description": "Apprentie ingénieure informatique",
     "about_title": "À propos de moi",
-    "about_text": "Je suis passionnée par la science des données et l'ingénierie informatique...",
+    "about_text": "Je suis apprentie ingénieure informatique à l'école d'ingénieur SupGalilée de l'Université Sorbonne Paris Nord. Je travaille actuellement chez COVEA en tant qu'ingénieure Système d'Information.",
     "hard_skills_title": "Compétences Techniques",
     "hard_skills": [
-        "Python, Julia, Java",
-        "SQL",
-        "Bases de données relationnelles et non relationnelles",
-        "Statistiques",
-        "Pack office"
+        " C++, Java, C, Python",
+        " HTML, CSS, Js, PHP, React",
+        " Docker, Kubernetes",
+        " AWS, Azure",
+        " Linux, Windows, MacOS"
     ],
-    "soft_skills_title": "Compétences Douces",
+    "soft_skills_title": "Soft Skills",
     "soft_skills": [
         "Communication écrite et orale",
         "Créativité",
@@ -71,14 +71,16 @@
             "degree": "Classes Préparatoires (CPGE)",
             "institution": "Lycée Général Marceau",
             "location": "Chartres, FR",
-            "end_date": "2020",
+            "start_date": "2020",
+            "end_date": "2023",
             "details": "Mention Bien"
         },
         {
             "degree": "Baccalauréat Scientifique",
             "institution": "Lycée Scientifique d’Excellence de Diourbel",
             "location": "Diourbel, SN",
-            "end_date": "2018",
+            "start_date": "2017",
+            "end_date": "2020",
             "details": "Mention Bien"
         }
     ],
@@ -86,6 +88,6 @@
     "contact": {
         "email": "gueyeaissatou1211@gmail.com",
         "phone": "0605980373",
-        "address": "37 Parc d’Ardenay, Palaiseau"
+        "address": "37 Parc d’Ardenay, 91120 Palaiseau, FR"
     }
 }

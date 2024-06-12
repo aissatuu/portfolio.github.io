@@ -1,15 +1,15 @@
 {
     "name": "艾莎图·盖耶",
-    "description": "正在寻找数据领域为期12个月的学徒合同的学徒计算机工程师。",
+    "description": "计算机工程学徒",
     "about_title": "关于我",
-    "about_text": "我对数据科学和计算机工程充满热情...",
-    "hard_skills_title": "硬技能",
+    "about_text": "我是巴黎北部索邦大学SupGalilée工程学院的计算机工程学徒。我目前在COVEA担任信息系统工程师。",
+    "hard_skills_title": "技术技能",
     "hard_skills": [
-        "Python, Julia, Java",
-        "SQL",
-        "关系型和非关系型数据库",
-        "统计",
-        "Office套件"
+        "C++，Java，C，Python",
+        "HTML，CSS，JS，PHP，React",
+        "Docker，Kubernetes",
+        "AWS，Azure",
+        "Linux，Windows，MacOS"
     ],
     "soft_skills_title": "软技能",
     "soft_skills": [
@@ -51,9 +51,9 @@
             "start_date": "2020年4月",
             "end_date": "2020年6月",
             "tasks": [
-                "文件归档和存档工作",
+                "文件归档和存档",
                 "数据输入",
-                "使用Office套件"
+                "使用办公套件"
             ]
         }
     ],
@@ -71,14 +71,16 @@
             "degree": "预备班（CPGE）",
             "institution": "马尔索高中",
             "location": "沙特尔，法国",
-            "end_date": "2020",
+            "start_date": "2020",
+            "end_date": "2023",
             "details": "优等"
         },
         {
             "degree": "科学学士",
             "institution": "迪乌尔贝尔科学优秀中学",
             "location": "迪乌尔贝尔，塞内加尔",
-            "end_date": "2018",
+            "start_date": "2017",
+            "end_date": "2020",
             "details": "优等"
         }
     ],
@@ -86,6 +88,6 @@
     "contact": {
         "email": "gueyeaissatou1211@gmail.com",
         "phone": "0605980373",
-        "address": "帕尔克达尔代奈37号, 帕莱索"
+        "address": "法国帕莱索91120 Parc d’Ardenay 37号"
     }
 }

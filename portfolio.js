@@ -3,19 +3,23 @@ document.addEventListener('DOMContentLoaded', function() {
     setLanguage(defaultLang);
 
     function setLanguage(lang) {
-        let langFile;
+        let langFile, subtitlesFile;
         switch(lang) {
             case 'fr':
                 langFile = 'content-fr.json';
+                subtitlesFile = 'french_subtitles.vtt';
                 break;
             case 'en':
                 langFile = 'content-en.json';
+                subtitlesFile = 'english_subtitles.vtt';
                 break;
             case 'zh':
                 langFile = 'content-zh.json';
+                subtitlesFile = 'chinese_subtitles.vtt';
                 break;
             default:
                 langFile = 'content-en.json';
+                subtitlesFile = 'english_subtitles.vtt';
         }
 
         fetch(langFile)
@@ -80,9 +84,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.getElementById('phone').textContent = data.contact.phone;
                 document.getElementById('phone').href = `tel:${data.contact.phone}`;
                 document.getElementById('address').textContent = data.contact.address;
+
+                // Update subtitles
+                const subtitlesTrack = document.getElementById('subtitles');
+                subtitlesTrack.src = subtitlesFile;
+                subtitlesTrack.label = data.contact_title; 
             })
             .catch(error => console.error('Error loading content:', error));
     }
 
-    window.setLanguage = setLanguage; // Expose the function to global scope
+    window.setLanguage = setLanguage; 
 });

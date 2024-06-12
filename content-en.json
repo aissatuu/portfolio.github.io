@@ -1,15 +1,15 @@
 {
     "name": "Aissatou GUEYE",
-    "description": "Apprentice computer engineer seeking a 12-month apprenticeship contract in the Data field.",
+    "description": "Apprentice computer engineer",
     "about_title": "About Me",
-    "about_text": "I am passionate about data science and computer engineering...",
-    "hard_skills_title": "Hard Skills",
+    "about_text": "I am an apprentice computer engineer at the engineering school SupGalilée of the University Sorbonne Paris Nord. I currently work at COVEA as an Information System Engineer.",
+    "hard_skills_title": "Technical Skills",
     "hard_skills": [
-        "Python, Julia, Java",
-        "SQL",
-        "Relational and non-relational databases",
-        "Statistics",
-        "Office Suite"
+        "C++, Java, C, Python",
+        "HTML, CSS, JS, PHP, React",
+        "Docker, Kubernetes",
+        "AWS, Azure",
+        "Linux, Windows, MacOS"
     ],
     "soft_skills_title": "Soft Skills",
     "soft_skills": [
@@ -51,9 +51,9 @@
             "start_date": "April 2020",
             "end_date": "June 2020",
             "tasks": [
-                "Filing and archiving work",
+                "Filing and archiving",
                 "Data entry",
-                "Use of Office Suite"
+                "Use of Office suite"
             ]
         }
     ],
@@ -71,14 +71,16 @@
             "degree": "Preparatory Classes (CPGE)",
             "institution": "Lycée Général Marceau",
             "location": "Chartres, FR",
-            "end_date": "2020",
+            "start_date": "2020",
+            "end_date": "2023",
             "details": "With honors"
         },
         {
             "degree": "Scientific Baccalaureate",
             "institution": "Lycée Scientifique d’Excellence de Diourbel",
             "location": "Diourbel, SN",
-            "end_date": "2018",
+            "start_date": "2017",
+            "end_date": "2020",
             "details": "With honors"
         }
     ],
@@ -86,6 +88,6 @@
     "contact": {
         "email": "gueyeaissatou1211@gmail.com",
         "phone": "0605980373",
-        "address": "37 Parc d’Ardenay, Palaiseau"
+        "address": "37 Parc d’Ardenay, 91120 Palaiseau, FR"
     }
 }
