@@ -1,7 +1,8 @@
 {
-    "title": "Bienvenue sur mon portfolio",
     "name": "Aissatou GUEYE",
     "description": "Apprentie ingénieure informatique à la recherche d'un contrat d'apprentissage de 12 mois dans le domaine de la Data.",
+    "about_title": "À propos de moi",
+    "about_text": "Je suis passionnée par la science des données et l'ingénierie informatique...",
     "hard_skills_title": "Compétences Techniques",
     "hard_skills": [
         "Python, Julia, Java",
@@ -10,7 +11,7 @@
         "Statistiques",
         "Pack office"
     ],
-    "soft_skills_title": "Compétences Douces",
+    "soft_skills_title": "Soft Skills",
     "soft_skills": [
         "Communication écrite et orale",
         "Créativité",

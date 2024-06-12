@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Multilingue</title>
+    <title>Aissatou GUEYE</title>
     <link rel="stylesheet" href="portfolio.css">
     <script src="portfolio.js" defer></script>
 </head>
@@ -11,44 +11,42 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#about" lang="fr">À propos</a></li>
-                <li><a href="#about" lang="en">About Me</a></li>
-                <li><a href="#about" lang="zh">关于我</a></li>
+                <li><a href="#" lang="fr" onclick="setLanguage('fr')">Français</a></li>
+                <li><a href="#" lang="en" onclick="setLanguage('en')">English</a></li>
+                <li><a href="#" lang="zh" onclick="setLanguage('zh')">中文</a></li>
             </ul>
         </nav>
-        <div id="language-selector">
-            <button onclick="setLanguage('fr')">Français</button>
-            <button onclick="setLanguage('en')">English</button>
-            <button onclick="setLanguage('zh')">中文</button>
-        </div>
     </header>
 
     <main>
-        <section>
-            <h1 id="title"></h1>
-            <video controls>
-                <source src="video.mp4" type="video/mp4">
-                <track src="french_subtitles.vtt" kind="subtitles" srclang="fr" label="Français">
-                <track src="english_subtitles.vtt" kind="subtitles" srclang="en" label="English">
-                <track src="chinese_subtitles.vtt" kind="subtitles" srclang="zh" label="中文">
-                Votre navigateur ne supporte pas la vidéo.
-            </video>
+        <section id="home" about="me">
+            <div class="video-container">
+                <video controls>
+                    <source src="video-fr.mp4" type="video/mp4" lang="fr">
+                    <source src="video-en.mp4" type="video/mp4" lang="en">
+                    <source src="video-zh.mp4" type="video/mp4" lang="zh">
+                    <track src="subtitles-fr.vtt" kind="subtitles" srclang="fr" label="Français">
+                    <track src="subtitles-en.vtt" kind="subtitles" srclang="en" label="English">
+                    <track src="subtitles-zh.vtt" kind="subtitles" srclang="zh" label="中文">
+                    Votre navigateur ne supporte pas la vidéo.
+                </video>
+            </div>
+            <div class="info">
+                <h1 id="name"></h1>
+                <p id="description"></p>
+            </div>
         </section>
 
-        <section id="about" about="me">
-            <h2 property="name" id="name"></h2>
-            <p property="description" id="description"></p>
+        <section id="about">
+            <h2 id="about_title"></h2>
+            <p id="about_text"></p>
         </section>
 
         <section id="skills">
             <h2 id="hard_skills_title"></h2>
-            <div property="hasOccupation" typeof="Occupation">
-                <ul id="hard_skills"></ul>
-            </div>
+            <ul id="hard_skills"></ul>
             <h2 id="soft_skills_title"></h2>
-            <div property="hasOccupation" typeof="Occupation">
-                <ul id="soft_skills"></ul>
-            </div>
+            <ul id="soft_skills"></ul>
         </section>
 
         <section id="experience">
@@ -60,9 +58,7 @@
             <h2 id="education_title"></h2>
             <div id="education_list"></div>
         </section>
-    </main>
 
-    <footer>
         <section id="contact">
             <h2 id="contact_title"></h2>
             <address>
@@ -71,6 +67,10 @@
                 <p id="address"></p>
             </address>
         </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aissatou GUEYE</p>
     </footer>
 </body>
 </html>

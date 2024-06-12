@@ -1,7 +1,8 @@
 {
-    "title": "欢迎来到我的作品集",
     "name": "艾莎图·盖耶",
     "description": "正在寻找数据领域为期12个月的学徒合同的学徒计算机工程师。",
+    "about_title": "关于我",
+    "about_text": "我对数据科学和计算机工程充满热情...",
     "hard_skills_title": "硬技能",
     "hard_skills": [
         "Python, Julia, Java",

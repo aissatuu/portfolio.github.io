@@ -21,9 +21,10 @@ document.addEventListener('DOMContentLoaded', function() {
         fetch(langFile)
             .then(response => response.json())
             .then(data => {
-                document.getElementById('title').textContent = data.title;
                 document.getElementById('name').textContent = data.name;
                 document.getElementById('description').textContent = data.description;
+                document.getElementById('about_title').textContent = data.about_title;
+                document.getElementById('about_text').textContent = data.about_text;
                 document.getElementById('hard_skills_title').textContent = data.hard_skills_title;
                 document.getElementById('soft_skills_title').textContent = data.soft_skills_title;
                 document.getElementById('experience_title').textContent = data.experience_title;

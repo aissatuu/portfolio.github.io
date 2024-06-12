@@ -1,7 +1,8 @@
 {
-    "title": "Welcome to my portfolio",
     "name": "Aissatou GUEYE",
     "description": "Apprentice computer engineer seeking a 12-month apprenticeship contract in the Data field.",
+    "about_title": "About Me",
+    "about_text": "I am passionate about data science and computer engineering...",
     "hard_skills_title": "Hard Skills",
     "hard_skills": [
         "Python, Julia, Java",
