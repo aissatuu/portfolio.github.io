@@ -1,0 +1,90 @@
+{
+    "title": "Bienvenue sur mon portfolio",
+    "name": "Aissatou GUEYE",
+    "description": "Apprentie ingénieure informatique à la recherche d'un contrat d'apprentissage de 12 mois dans le domaine de la Data.",
+    "hard_skills_title": "Compétences Techniques",
+    "hard_skills": [
+        "Python, Julia, Java",
+        "SQL",
+        "Bases de données relationnelles et non relationnelles",
+        "Statistiques",
+        "Pack office"
+    ],
+    "soft_skills_title": "Compétences Douces",
+    "soft_skills": [
+        "Communication écrite et orale",
+        "Créativité",
+        "Curiosité intellectuelle",
+        "Capacité d'adaptation",
+        "Autonomie"
+    ],
+    "experience_title": "Expériences Professionnelles",
+    "experiences": [
+        {
+            "role": "Ingénieure Système d’Information",
+            "company": "Groupe Covéa, MMA",
+            "location": "Paris, FR",
+            "start_date": "Octobre 2022",
+            "end_date": "Présent",
+            "tasks": [
+                "Conception de solutions",
+                "Support aux développeurs",
+                "Maintenance de Systèmes",
+                "Développement"
+            ]
+        },
+        {
+            "role": "Recruteuse de donateur",
+            "company": "Ravess France",
+            "location": "Paris, FR",
+            "start_date": "Juin 2022",
+            "end_date": "Septembre 2022",
+            "tasks": [
+                "Street Marketing"
+            ]
+        },
+        {
+            "role": "Stagiaire",
+            "company": "Centre de Promotion et de Réinsertion Sociale",
+            "location": "Bambey, SN",
+            "start_date": "Avril 2020",
+            "end_date": "Juin 2020",
+            "tasks": [
+                "Travaux de classement et d'archivage",
+                "Saisie de données",
+                "Utilisation du Pack office"
+            ]
+        }
+    ],
+    "education_title": "Parcours Académique",
+    "education": [
+        {
+            "degree": "Ingénierie Informatique en apprentissage",
+            "institution": "SupGalilée",
+            "location": "Villetaneuse, FR",
+            "start_date": "2023",
+            "end_date": "2025",
+            "details": "Formation généraliste"
+        },
+        {
+            "degree": "Classes Préparatoires (CPGE)",
+            "institution": "Lycée Général Marceau",
+            "location": "Chartres, FR",
+            "end_date": "2020",
+            "details": "Mention Bien"
+        },
+        {
+            "degree": "Baccalauréat Scientifique",
+            "institution": "Lycée Scientifique d’Excellence de Diourbel",
+            "location": "Diourbel, SN",
+            "end_date": "2018",
+            "details": "Mention Bien"
+        }
+    ],
+    "contact_title": "Contact",
+    "contact": {
+        "email": "gueyeaissatou1211@gmail.com",
+        "phone": "0605980373",
+        "address": "37 Parc d’Ardenay, Palaiseau"
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "title": "Welcome to my portfolio",
+    "name": "Aissatou GUEYE",
+    "description": "Apprentice computer engineer seeking a 12-month apprenticeship contract in the Data field.",
+    "hard_skills_title": "Hard Skills",
+    "hard_skills": [
+        "Python, Julia, Java",
+        "SQL",
+        "Relational and non-relational databases",
+        "Statistics",
+        "Office Suite"
+    ],
+    "soft_skills_title": "Soft Skills",
+    "soft_skills": [
+        "Written and oral communication",
+        "Creativity",
+        "Intellectual curiosity",
+        "Adaptability",
+        "Autonomy"
+    ],
+    "experience_title": "Professional Experiences",
+    "experiences": [
+        {
+            "role": "Information System Engineer",
+            "company": "Groupe Covéa, MMA",
+            "location": "Paris, FR",
+            "start_date": "October 2022",
+            "end_date": "Present",
+            "tasks": [
+                "Solution design",
+                "Developer support",
+                "System maintenance",
+                "Development"
+            ]
+        },
+        {
+            "role": "Donor Recruiter",
+            "company": "Ravess France",
+            "location": "Paris, FR",
+            "start_date": "June 2022",
+            "end_date": "September 2022",
+            "tasks": [
+                "Street Marketing"
+            ]
+        },
+        {
+            "role": "Intern",
+            "company": "Centre de Promotion et de Réinsertion Sociale",
+            "location": "Bambey, SN",
+            "start_date": "April 2020",
+            "end_date": "June 2020",
+            "tasks": [
+                "Filing and archiving work",
+                "Data entry",
+                "Use of Office Suite"
+            ]
+        }
+    ],
+    "education_title": "Academic Background",
+    "education": [
+        {
+            "degree": "Computer Engineering Apprenticeship",
+            "institution": "SupGalilée",
+            "location": "Villetaneuse, FR",
+            "start_date": "2023",
+            "end_date": "2025",
+            "details": "General training"
+        },
+        {
+            "degree": "Preparatory Classes (CPGE)",
+            "institution": "Lycée Général Marceau",
+            "location": "Chartres, FR",
+            "end_date": "2020",
+            "details": "With honors"
+        },
+        {
+            "degree": "Scientific Baccalaureate",
+            "institution": "Lycée Scientifique d’Excellence de Diourbel",
+            "location": "Diourbel, SN",
+            "end_date": "2018",
+            "details": "With honors"
+        }
+    ],
+    "contact_title": "Contact",
+    "contact": {
+        "email": "gueyeaissatou1211@gmail.com",
+        "phone": "0605980373",
+        "address": "37 Parc d’Ardenay, Palaiseau"
+    }
+}

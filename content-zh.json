@@ -1,0 +1,90 @@
+{
+    "title": "欢迎来到我的作品集",
+    "name": "艾莎图·盖耶",
+    "description": "正在寻找数据领域为期12个月的学徒合同的学徒计算机工程师。",
+    "hard_skills_title": "硬技能",
+    "hard_skills": [
+        "Python, Julia, Java",
+        "SQL",
+        "关系型和非关系型数据库",
+        "统计",
+        "Office套件"
+    ],
+    "soft_skills_title": "软技能",
+    "soft_skills": [
+        "书面和口头沟通",
+        "创造力",
+        "智力好奇心",
+        "适应能力",
+        "自主性"
+    ],
+    "experience_title": "专业经验",
+    "experiences": [
+        {
+            "role": "信息系统工程师",
+            "company": "Covéa集团，MMA",
+            "location": "巴黎，法国",
+            "start_date": "2022年10月",
+            "end_date": "现在",
+            "tasks": [
+                "解决方案设计",
+                "开发人员支持",
+                "系统维护",
+                "开发"
+            ]
+        },
+        {
+            "role": "捐赠者招聘人员",
+            "company": "Ravess法国",
+            "location": "巴黎，法国",
+            "start_date": "2022年6月",
+            "end_date": "2022年9月",
+            "tasks": [
+                "街头营销"
+            ]
+        },
+        {
+            "role": "实习生",
+            "company": "社会推广和重新安置中心",
+            "location": "班贝，塞内加尔",
+            "start_date": "2020年4月",
+            "end_date": "2020年6月",
+            "tasks": [
+                "文件归档和存档工作",
+                "数据输入",
+                "使用Office套件"
+            ]
+        }
+    ],
+    "education_title": "学术背景",
+    "education": [
+        {
+            "degree": "计算机工程学徒",
+            "institution": "SupGalilée",
+            "location": "维勒塔讷斯，法国",
+            "start_date": "2023",
+            "end_date": "2025",
+            "details": "通用培训"
+        },
+        {
+            "degree": "预备班（CPGE）",
+            "institution": "马尔索高中",
+            "location": "沙特尔，法国",
+            "end_date": "2020",
+            "details": "优等"
+        },
+        {
+            "degree": "科学学士",
+            "institution": "迪乌尔贝尔科学优秀中学",
+            "location": "迪乌尔贝尔，塞内加尔",
+            "end_date": "2018",
+            "details": "优等"
+        }
+    ],
+    "contact_title": "联系",
+    "contact": {
+        "email": "gueyeaissatou1211@gmail.com",
+        "phone": "0605980373",
+        "address": "帕尔克达尔代奈37号, 帕莱索"
+    }
+}
