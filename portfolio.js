@@ -55,13 +55,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 experiencesDiv.innerHTML = '';
                 data.experiences.forEach(exp => {
                     const div = document.createElement('div');
+                    div.className = 'experience-block';
                     div.innerHTML = `
                         <h3>${exp.role}</h3>
                         <p>${exp.company} - ${exp.location}</p>
                         <p>${exp.start_date} - ${exp.end_date}</p>
-                        <ul>
-                            ${exp.tasks.map(task => `<li>${task}</li>`).join('')}
-                        </ul>
+                        <p>${exp.tasks.join(', ')}</p>
                     `;
                     experiencesDiv.appendChild(div);
                 });
@@ -85,13 +84,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.getElementById('phone').href = `tel:${data.contact.phone}`;
                 document.getElementById('address').textContent = data.contact.address;
 
-                // Update subtitles
+                // Update subtitles track
                 const subtitlesTrack = document.getElementById('subtitles');
                 subtitlesTrack.src = subtitlesFile;
-                subtitlesTrack.label = data.contact_title; 
+                subtitlesTrack.label = data.contact_title; // Update label for accessibility
             })
             .catch(error => console.error('Error loading content:', error));
     }
 
-    window.setLanguage = setLanguage; 
+    window.setLanguage = setLanguage; // Expose the function to global scope
 });
